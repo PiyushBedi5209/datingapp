@@ -76,6 +76,7 @@ namespace API.Controllers
                 Token = _tokenService.CreateToken(user)
             };
         }
+        
 
         private Task<bool> UserExists(object username)
         {
